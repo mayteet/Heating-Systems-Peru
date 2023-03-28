@@ -15,9 +15,34 @@ A meteorologycal year is mandatory to analyse this time dependent system. To bui
 
 ### **Results: **
 The following dashboards shows the data analyzed.
-The first one is related to the Metereological information of the study zone. 
+The first one is related to the Metereological information of the study zone. It figure shows that the minimum temperature to use is -3.52 °C. The average temperature in Morococha is of 6.18 °C. The lowest temperature are presentend on May to August.
 
+The global horizontal radiation is of our interest to size the solar collectors. It shows that it is in average it is 200 kWh/day.m2
 <p align="center"> <img src = 'Sources\Metereologycal dashboard.png' /> </p>
+
+There were 6 study cases created to analyze the thermal demand in heating and cooling. 
+1. Good isolation, big windows
+2. Good isolations, smaller windows
+3. Bad isolation, big windows
+4. Good isolation, turn to the east
+5. Good isolation, without windows
+6. Bad isolation, without windows
+
+In general, the analysis presents a demand for heating, cooling and DHW. It is observed that cases 3 and 6 have a greater demand for heating and cooling. These two cases in particular represented homes without good insulation. Therefore, insulation significantly affects (>97% in heating and >88% in cooling) the thermal demand. On the other hand, the demand for ACS remains constant for all cases.
+
+Cooling is one of the main concerns. This requirement is presented for cases 1, 3,4,6. These three cases in particular, for the hours of cooling demand, solar gains are observed through the windows, roof and occupancy.
+
+The earnings through the large windows (2.86 m2) is on average 2000 kWh. If the size is decreased (0.95 m2), the energy gain decreases to 600 kWh by approximately 70%
+
+The gains through the roofs vary from an insulated house to another that is not. These increase close to 95% (306 kWh to 7445 kWh) for homes with low insulation.
+
+The earnings per occupancy remain constant throughout the day with a value of 500 kWh.
+
+In this sense, it is recommended to insulate the houses, especially the part of the roof, to reduce the demand for cooling, as well as having windows with an area of ​​0.95 m2.
+
+
+<p align="center"> <img src = 'Sources\thermal demand.png' /> </p>
+
 
 
 
