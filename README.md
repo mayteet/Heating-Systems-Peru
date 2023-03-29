@@ -17,7 +17,8 @@ A meteorologycal year is mandatory to analyse this time dependent system. To bui
 The following dashboards shows the data analyzed.
 The first one is related to the Metereological information of the study zone. It figure shows that the minimum temperature to use is -3.52 °C. The average temperature in Morococha is of 6.18 °C. The lowest temperature are presentend on May to August.
 
-The global horizontal radiation is of our interest to size the solar collectors. It shows that it is in average it is 200 kWh/day.m2
+The global horizontal radiation is of our interest to size the solar collectors. It shows that it is in average it is 200 kWh/month.m2
+
 <p align="center"> <img src = 'Sources\Metereologycal dashboard.png' /> </p>
 
 There were 6 study cases created to analyze the thermal demand in heating and cooling. 
@@ -27,6 +28,7 @@ There were 6 study cases created to analyze the thermal demand in heating and co
 4. Good isolation, turn to the east
 5. Good isolation, without windows
 6. Bad isolation, without windows
+
 
 In general, the analysis presents a demand for heating, cooling and DHW. It is observed that cases 3 and 6 have a greater demand for heating and cooling. These two cases in particular represented homes without good insulation. Therefore, insulation significantly affects (>97% in heating and >88% in cooling) the thermal demand. On the other hand, the demand for ACS remains constant for all cases.
 
@@ -43,10 +45,14 @@ In this sense, it is recommended to insulate the houses, especially the part of 
 
 <p align="center"> <img src = 'Sources\thermal demand.png' /> </p>
 
+A comparative analysis was performed to investigate a feseable solution for diferent number of collectors. Some of the KPI's defined were: f value, performance, TIR, VAN, and payback.
 
+The first graph to the left shows the variation or the solar fraction of the system, and the performance for different number of collectors.
 
+The second graph in the middle shows the CO2 production. When it is negative, it means that the solar fraction has superated the thermal demand. 
+
+<p align="center"> <img src = 'Sources\Comparative analysis.png' /> </p>
 
 ### **Disclamer: **
 
 This research his made in aims of study. There were many considerations taking into consideration. The information and data taken was from public datasources. No sensible information about Morococha is shared.
-
