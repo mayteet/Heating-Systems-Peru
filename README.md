@@ -10,7 +10,7 @@ This research seeks to analyze the economic technical feasibility of implementin
 
 A meteorologycal year is mandatory to analyse this time dependent system. To build a year that represents all the data of Morococha from 1996 to 2022, we got the information from the public database NRBDS. The information we got was: global solar radiation on an horizontal surface, minimum, and maximum temperatures, wind speed and direction. An API was used to connect to the database and simplify the process of getting the information. 
 
-<p align="center"> <img src = 'Sources\Solar methodology.drawio.png' /> </p>
+<p align="center"> <img src = 'Sources\methodology.png' /> </p>
 
 
 ### **Results: **
@@ -45,13 +45,34 @@ In this sense, it is recommended to insulate the houses, especially the part of 
 
 <p align="center"> <img src = 'Sources\thermal demand.png' /> </p>
 
-A comparative analysis was performed to investigate a feseable solution for diferent number of collectors. Some of the KPI's defined were: f value, performance, TIR, VAN, and payback.
+A simulation was performed to understand the behavior of the demand through the year of the heating system and ACS.
+It showed that the dorms had an annual thermal demand of 7821 kWh, while the ACS demand was of 7164 kwh.
 
-The first graph to the left shows the variation or the solar fraction of the system, and the performance for different number of collectors.
+<p align="center"> <img src = 'Sources\zonas de estudio.png' /> </p>
 
-The second graph in the middle shows the CO2 production. When it is negative, it means that the solar fraction has superated the thermal demand. 
+Besides, an average day was constructed of the coolest months of the year. According to that, we can see th temperature variation indoors the dorms, compared to the external ambient temperature. It is shown that there is a difference of 12 °C.
 
-<p align="center"> <img src = 'Sources\Comparative analysis.png' /> </p>
+<p align="center"> <img src = 'Sources\comparacion temperaturas.png' /> </p>
+
+According to the information, we could get the hourly demand perfil of ACS and heating as shown in the figures
+
+
+<p align="center"> <img src = 'Sources\perfil demanda horario.png' /> </p>
+
+At the end, it is of our interest to propose an ACS and heating system to cover the demand. The sun it is going to be the energy source, so it is contemplated to have solar collectors to collect the energy from the sun. Besides, to garantee the confiability of the system, there is going to be a electric backup. So, the circuit of ACS and heating system was separeted in two different systems.
+For the heating system, it is going to be analysed two different emitters: 1) radiant floor, 2) water radiators. 
+The study cases are reduced to three: 1) base line 2) ACS + heating system with radiant floor, 3) ACS + heating system with water radiators. Those are shown in the figures below:
+
+
+<p align="center"> <img src = 'Sources\acs propose.png' /> </p>
+<p align="center"> <img src = 'Sources\calefaccion radiant floor.png' /> </p>
+<p align="center"> <img src = 'Sources\calefaccion water radiators.png' /> </p>
+
+
+This proposals were evaluated according to variables as performance, solar factor, inversion, savings, and time of return of investment. The figure below shows these comparisons. According to the observations, the heating system with radiators can be a great fit for Morococha.
+
+<p align="center"> <img src = 'Sources\comparison.png' /> </p>
+
 
 ### **Disclamer: **
 
